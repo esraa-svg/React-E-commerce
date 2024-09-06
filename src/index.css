@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }}
+.active {
+    @apply text-2xl font-bold
+}
+.custom-toast-success {
+  @apply bg-green-500  p-4 rounded-md shadow-md;
+}
